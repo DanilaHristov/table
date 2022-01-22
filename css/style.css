@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+.cardItem{
+    background-color: white;
+    max-width: 920px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    margin: 60px auto 25px auto;
+
+}
+
+.pic{
+    width: 40%;
+}
+
+.pic img{
+    width: 100%;
+}
+
+h2{
+    font-family: "helvetica";
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+h3{
+    font-family: "helvetica";
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: rgba(77, 77, 77, 0.6); 
+}
+
+p1{
+   font-family: "helvetica";
+   font-size: 12px;
+   line-height: 25px;
+   font-weight: 500;
+   color: #333;
+}
+
+p{
+    font-family: "helvetica";
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+button{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(191, 191, 191);
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline; 
+}
+
+@media (max-width:764px) {
+    .cardItem{
+        max-width: 600px;
+        /* position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); */
+        margin: 60px auto 25px auto;
+    }
+}
